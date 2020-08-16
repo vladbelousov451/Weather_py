@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "/Users/vladibelousov/Desktop/flutter_app/python_weather_sender/pywhatsapp/bin/python3",
+    "python.formatting.provider": "black"
+}
