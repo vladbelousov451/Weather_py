@@ -45,9 +45,6 @@ def Get_weather():
     weather1 = json.loads(weather.content)
     tempature = int((weather1["main"]["temp_max"]) - 273.13)
     wind_speed = float(weather1["wind"]["speed"])
-    client = Client()
-    from_whatsapp_number = "whatsapp:+14155238886"
-    numbers = ["whatsapp:+972535303588", "whatsapp:+972547245344"]
     weater_quote = "The tempature is {0} and the wind speed is {1} Km/h".format(
         tempature, wind_speed
     )
